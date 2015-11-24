@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="GemElixers.exe" version="1.0.0.10" publicKeyToken="7a9a6fcdb4a9d9fd" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="GemElixers" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="GemElixers.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GemElixers.exe" size="104448">
+      <assemblyIdentity name="GemElixers" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Kr8tvG8ElaRylI9XrUPufqLzSDifz4lVb4kTbNLAgUM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="GemElixers.exe.config" size="562">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FN7IAqw6T1ltNYTDVj57DZ84wy8ETUogbtnt/OI1lcU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Home\Laura" issuerKeyHash="d6d5d7abbddb1d8a4fe86e11ff459aa3785e5d42" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>5Io2o1sEm6sEoUFrdECJKQOKy6V7W0q00CZv34TGWPk=</DigestValue></Reference></SignedInfo><SignatureValue>Zla11zzSZoLdZ7EDzKY/MyWatapIAEj87UmvoRvsoAtKzHvb092UcDeb0+rk4HRrpctDQWLi2vhHCjTG3aYENDx0SsFf0dAJjiHCL9sYyREEdy/YsAqJw4F1h3i7Bz2UK65CcJyF0v1A8IiczXc2mXYmBGCFywSGy99vXhDO2OY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wviR6OwPCDkuyVIxSrFUEgrCeQmlWNc3AEj34kOcUl3nzz7spb4ZHKRNZo2f042a2LtWGxdZoSWRGY4SJ9ydL9xrKiDRW4Jipruw98hjzyDSdeC+E12diZHm6oGjnlRKC5gJF+pHXBBGY4n/Xx9eQzB6Fvnj4i6vwEpW4Yxrzxk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f958c684df6f26d0b44a5b7ba5cb8a03298940746b41a104ab9b045ba3368ae4" Description="" Url=""><as:assemblyIdentity name="GemElixers.exe" version="1.0.0.10" publicKeyToken="7a9a6fcdb4a9d9fd" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Home\Laura</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>v1+xV9qb/0pbEYBumByKAka31UhIdk7D4G8wQm0QHzk=</DigestValue></Reference></SignedInfo><SignatureValue>pgAQTrOBWBHN6bT+4raUvWV6E9BmlHdNo0H06pTfsRKPiyotJYvXdx/G+xvT/C8xglZC6dqu8gssISMtyeE3TnBz98y9D0xzYrkQvYgibWgplnfbiuLGrciRQDUKl/9xnFKND+74RaRWM37ZnmgXJhrz7NEixly5w3cmIu9AjwA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wviR6OwPCDkuyVIxSrFUEgrCeQmlWNc3AEj34kOcUl3nzz7spb4ZHKRNZo2f042a2LtWGxdZoSWRGY4SJ9ydL9xrKiDRW4Jipruw98hjzyDSdeC+E12diZHm6oGjnlRKC5gJF+pHXBBGY4n/Xx9eQzB6Fvnj4i6vwEpW4Yxrzxk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBwTCCASqgAwIBAgIQaOxOGD3plJ1MBr+L9w1bzjANBgkqhkiG9w0BAQsFADAfMR0wGwYDVQQDHhQASABvAG0AZQBcAEwAYQB1AHIAYTAeFw0xNDA2MjYxMjQ3NTlaFw0xNTA2MjYxODQ3NTlaMB8xHTAbBgNVBAMeFABIAG8AbQBlAFwATABhAHUAcgBhMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDC+JHo7A8IOS7JUjFKsVQSCsJ5CaVY1zcASPfiQ5xSXefPPuylvhkcpE1mjZ/TjZrYu1YbF1mhJZEZjhIn3J0v3GsqINFbgmKmu7D3yGPPINJ14L4TXZ2JkebqgaOeVEoLmAkX6kdcEEZjif9fH15DMHoW+ePiLq/ASlbhjGvPGQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAHNv0YLEFYB6uU1cFSspxv2gEvp6ZMhLyojyEnCXVRBL04EIn1MQ5G9Z8wUSqq+Saq9lbjVvTkmgPfPD6iRkNi8h6m8++E2Dif9gKtMrSjhK19/kIFbEtIGAeEhXVHHLTXwZkt8vGbJZ+HIvjRtH8qt0JCPZRymARSqV6KVpCFfD</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
